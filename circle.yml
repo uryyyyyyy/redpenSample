@@ -1,0 +1,13 @@
+machine:
+  java:
+    version: oraclejdk8
+
+  timezone: Asia/Tokyo
+
+  environment:
+
+  services:
+
+test:
+  override:
+    - make check
