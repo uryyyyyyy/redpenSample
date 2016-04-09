@@ -10,4 +10,4 @@ machine:
 
 test:
   override:
-    - bash ./test.sh
+    - make check
